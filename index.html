@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="logo">Sneak peek into a learner's Portfolio</div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Heyyy, I'm Suhani !!</h1>
+            <p>An aspiring frontend developer dedicated to learn amazing things.</p>
+            <a href="#projects" class="cta-button">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="./image/pic1.jpg" alt="suhani's image">
+            <p> A passionate and dedicated B.Tech Computer Engineering student at Poornima University, Jaipur, with a
+                strong interest in frontend development. You have skills in HTML, CSS, JavaScript, and SQL, and is
+                currently learning React.js.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <img src="./image/pic3.jpg" alt="Project 1">
+                <h3>Disease Predicton System (ongoing)</h3>
+                <p>Developing an Big data-based system to predict diseases based on symptoms. Implementing data
+                    analysis,
+                    pattern recognition, and frontend integration to expand knowledge in AI and healthcare
+                    applications.</p>
+
+            </div>
+            <div class="project-card">
+                <img src="./image/firstimg.jpg" class="image" alt="Project 2">
+                <h3>Jewelery website </h3>
+                <p>A Jewelery website specially curated for jewelery lovers like me !</p>
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>SQL</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Suhani Sharma. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
